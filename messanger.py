@@ -28,4 +28,5 @@ while True:
         
         bot.send_photo(user,photo)
         photo.close()
-        sleep(10)
+        
+        sleep(1000)
