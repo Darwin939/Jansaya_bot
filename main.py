@@ -12,7 +12,7 @@ def send_welcome(message):
     
 @bot.message_handler(content_types=["text"])
 def repeat_all_messages(message):
-    bot.send_message(message.chat.id, "Жди , я сам напишу ...")
+    bot.send_message(message.chat.id, "Wait, I'll write it myself ...")
 
 
 
